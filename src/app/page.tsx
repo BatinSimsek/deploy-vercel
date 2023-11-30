@@ -1,11 +1,6 @@
 import {getNeighborhoods} from '@util/mongodb/neighborhood';
-import Data from './data'
-import CrimeData from './crimeData'
 import { getCrimes } from '@/utils/mongodb/crimes';
 import { getRiskscore } from '@/utils/mongodb/riskscore';
-import User from './user'
-
-
 
 export default async function Home() {
   const neighborhoodData = await getNeighborhoods()
