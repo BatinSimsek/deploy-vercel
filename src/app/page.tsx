@@ -20,15 +20,18 @@ export default async function Home() {
         <div className="homepage-div flex">
           <div className="home p-4">
             <h1 className={"text-2xl font-bold mb-2"}>Politieoverlast</h1>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <p className={"text-gray-700"}>Welkom bij "politieoverlast," jouw online bron voor het verkennen van
               maatschappelijke uitdagingen en het bevorderen van bewustwording. Onze missie is om een dieper
               begrip te creëren van problemen die onze samenleving beïnvloeden, en we beginnen met twee
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               cruciale datasets: alcoholoverlast en het mysterieuze "xxx."</p>
             <br/>
             <p className={"text-gray-700"}><b>Overlastscores voor Alcoholoverlast:</b> Dit is een probleem dat
               vele gemeenschappen wereldwijd treft. Het overmatige gebruik van alcohol kan leiden tot ernstige
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               gevolgen, waaronder gezondheidsproblemen, sociale conflicten en veiligheidsrisico's. Op
-              "politieoverlast" hebben we overlastscores verzameld en geanalyseerd om te laten zien welke
+              politieoverlast hebben we overlastscores verzameld en geanalyseerd om te laten zien welke
               gemeenten het meest getroffen zijn door alcoholgerelateerde problemen. We presenteren deze
               scores op een schaal van 1 tot 100 om de ernst van de situatie duidelijk te maken.</p>
             <div className={"home-btns flex flex-row "}>
